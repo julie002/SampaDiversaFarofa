@@ -4,40 +4,7 @@
 		{
 			"name": "Camada 0",
 			"overriden": 0,
-			"subLayers": [
-				{
-					"name": "Bg",
-					"overriden": 0,
-					"subLayers": [],
-					"instances": [],
-					"sid": 232769330756476,
-					"effectTypes": [],
-					"isInitiallyVisible": true,
-					"color": [
-						1,
-						1,
-						1,
-						1
-					],
-					"backgroundColor": [
-						1,
-						1,
-						1,
-						1
-					],
-					"isTransparent": true,
-					"parallaxX": 0.5,
-					"parallaxY": 0.5,
-					"scaleRate": 1,
-					"forceOwnTexture": false,
-					"renderingMode": "3d",
-					"drawOrder": "z-order",
-					"useRenderCells": false,
-					"blendMode": "normal",
-					"zElevation": 0,
-					"global": false
-				}
-			],
+			"subLayers": [],
 			"instances": [
 				{
 					"type": "FundoEmBlocos",
@@ -71,7 +38,40 @@
 						"angle": 4.71238898038469,
 						"zElevation": 0
 					}
-				},
+				}
+			],
+			"sid": 720596083381161,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": false,
+			"parallaxX": 0.7,
+			"parallaxY": 0.7,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		},
+		{
+			"name": "Camada 2",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
 				{
 					"type": "Chao",
 					"properties": {
@@ -92,8 +92,8 @@
 						}
 					},
 					"world": {
-						"x": 348,
-						"y": 240.5,
+						"x": 344,
+						"y": 251,
 						"width": 36.9043431981716,
 						"height": 151.20087079107282,
 						"originX": 0.5,
@@ -128,8 +128,8 @@
 						}
 					},
 					"world": {
-						"x": 506,
-						"y": 241,
+						"x": 599,
+						"y": 250,
 						"width": 36.9043431981716,
 						"height": 151.20087079107282,
 						"originX": 0.5,
@@ -164,8 +164,8 @@
 						}
 					},
 					"world": {
-						"x": 698,
-						"y": 243,
+						"x": 771,
+						"y": 245,
 						"width": 36.9043431981716,
 						"height": 151.20087079107282,
 						"originX": 0.5,
@@ -200,8 +200,8 @@
 						}
 					},
 					"world": {
-						"x": 956,
-						"y": 249,
+						"x": 1040,
+						"y": 250,
 						"width": 36.9043431981716,
 						"height": 151.20087079107282,
 						"originX": 0.5,
@@ -215,7 +215,40 @@
 						"angle": 0,
 						"zElevation": 0
 					}
-				},
+				}
+			],
+			"sid": 713675619013512,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		},
+		{
+			"name": "Camada 1",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
 				{
 					"type": "Player",
 					"properties": {
@@ -243,13 +276,18 @@
 							"properties": {
 								"enabled": true
 							}
+						},
+						"DarAVolta": {
+							"properties": {
+								"wrap-to": "layout"
+							}
 						}
 					},
 					"world": {
-						"x": 112,
-						"y": 273,
-						"width": 26.220708010951697,
-						"height": 26.220708010951697,
+						"x": 130.92814476128407,
+						"y": 250.91716444516857,
+						"width": 40.37347749161953,
+						"height": 47.102390406889455,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -263,38 +301,6 @@
 					}
 				}
 			],
-			"sid": 720596083381161,
-			"effectTypes": [],
-			"isInitiallyVisible": true,
-			"color": [
-				1,
-				1,
-				1,
-				1
-			],
-			"backgroundColor": [
-				1,
-				1,
-				1,
-				1
-			],
-			"isTransparent": false,
-			"parallaxX": 1,
-			"parallaxY": 1,
-			"scaleRate": 1,
-			"forceOwnTexture": false,
-			"renderingMode": "3d",
-			"drawOrder": "z-order",
-			"useRenderCells": false,
-			"blendMode": "normal",
-			"zElevation": 0,
-			"global": false
-		},
-		{
-			"name": "Camada 1",
-			"overriden": 0,
-			"subLayers": [],
-			"instances": [],
 			"sid": 583510085987327,
 			"effectTypes": [],
 			"isInitiallyVisible": true,

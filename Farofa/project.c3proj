@@ -40,6 +40,14 @@
 		},
 		{
 			"type": "behavior",
+			"id": "wrap",
+			"name": "Dar a volta",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "solid",
 			"name": "Sólido",
 			"author": "Scirra",
@@ -210,7 +218,7 @@
 		"scriptsType": "module",
 		"framerateMode": "vsync",
 		"compositingMode": "standard",
-		"sampling": "bilinear",
+		"sampling": "nearest",
 		"downscaling": "medium",
 		"renderingMode": "auto",
 		"anisotropicFiltering": "auto",
