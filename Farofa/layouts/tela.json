@@ -2,12 +2,62 @@
 	"name": "Tela",
 	"layers": [
 		{
-			"name": "Camada 0",
+			"name": "BG",
 			"overriden": 0,
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "FundoEmBlocos",
+					"type": "ceu",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 3,
+					"instanceVariables": {},
+					"behaviors": {
+						"DarAVolta": {
+							"properties": {
+								"wrap-to": "layout"
+							}
+						},
+						"Projétil": {
+							"properties": {
+								"speed": 200,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 819.5,
+						"y": 924.5,
+						"width": 2631,
+						"height": 1029,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 3.141592653589793,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "ceu",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -21,12 +71,29 @@
 					},
 					"uid": 4,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"DarAVolta": {
+							"properties": {
+								"wrap-to": "layout"
+							}
+						},
+						"Projétil": {
+							"properties": {
+								"speed": 200,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
 					"world": {
-						"x": -52,
-						"y": 316,
-						"width": 225.61983471074424,
-						"height": 1190.9799173554557,
+						"x": 2511,
+						"y": 925,
+						"width": 2631,
+						"height": 1029,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -35,7 +102,7 @@
 							1,
 							1
 						],
-						"angle": 4.71238898038469,
+						"angle": 3.141592653589793,
 						"zElevation": 0
 					}
 				}
@@ -68,84 +135,12 @@
 			"global": false
 		},
 		{
-			"name": "Camada 2",
+			"name": "Cidade fundo",
 			"overriden": 0,
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Chao",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 3,
-					"instanceVariables": {},
-					"behaviors": {
-						"Sólido": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 344,
-						"y": 251,
-						"width": 36.9043431981716,
-						"height": 151.20087079107282,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Chao",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 5,
-					"instanceVariables": {},
-					"behaviors": {
-						"Sólido": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 599,
-						"y": 250,
-						"width": 36.9043431981716,
-						"height": 151.20087079107282,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Chao",
+					"type": "cidadefundo",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -156,18 +151,28 @@
 					"uid": 6,
 					"instanceVariables": {},
 					"behaviors": {
-						"Sólido": {
+						"Projétil": {
 							"properties": {
-								"enabled": true,
-								"tags": ""
+								"speed": 400,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						},
+						"DarAVolta": {
+							"properties": {
+								"wrap-to": "layout"
 							}
 						}
 					},
 					"world": {
-						"x": 771,
-						"y": 245,
-						"width": 36.9043431981716,
-						"height": 151.20087079107282,
+						"x": 1293.7975206611568,
+						"y": 405.56198347107426,
+						"width": 1451,
+						"height": 800,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -176,12 +181,12 @@
 							1,
 							1
 						],
-						"angle": 0,
+						"angle": 3.141592653589793,
 						"zElevation": 0
 					}
 				},
 				{
-					"type": "Chao",
+					"type": "cidadefundo",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -192,18 +197,28 @@
 					"uid": 7,
 					"instanceVariables": {},
 					"behaviors": {
-						"Sólido": {
+						"Projétil": {
 							"properties": {
-								"enabled": true,
-								"tags": ""
+								"speed": 400,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						},
+						"DarAVolta": {
+							"properties": {
+								"wrap-to": "layout"
 							}
 						}
 					},
 					"world": {
-						"x": 1040,
-						"y": 250,
-						"width": 36.9043431981716,
-						"height": 151.20087079107282,
+						"x": -145.7590238162752,
+						"y": 421.84819523674497,
+						"width": 1451,
+						"height": 800,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -212,7 +227,7 @@
 							1,
 							1
 						],
-						"angle": 0,
+						"angle": 3.141592653589793,
 						"zElevation": 0
 					}
 				}
@@ -245,7 +260,161 @@
 			"global": false
 		},
 		{
-			"name": "Camada 1",
+			"name": "Cidade",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
+				{
+					"type": "Cidade",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 8,
+					"instanceVariables": {},
+					"behaviors": {
+						"Projétil": {
+							"properties": {
+								"speed": 600,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						},
+						"DarAVolta": {
+							"properties": {
+								"wrap-to": "layout"
+							}
+						}
+					},
+					"world": {
+						"x": 1433.3995221406294,
+						"y": 422.4688966770636,
+						"width": 1730,
+						"height": 800,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 3.141592653589793,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Cidade",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 9,
+					"instanceVariables": {},
+					"behaviors": {
+						"Projétil": {
+							"properties": {
+								"speed": 600,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						},
+						"DarAVolta": {
+							"properties": {
+								"wrap-to": "layout"
+							}
+						}
+					},
+					"world": {
+						"x": -288.4117080924675,
+						"y": 420.8560456004619,
+						"width": 1730,
+						"height": 800,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 3.141592653589793,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "chao",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 5,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 628,
+						"y": 1361,
+						"width": 1339,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 151288676084269,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		},
+		{
+			"name": "Player",
 			"overriden": 0,
 			"subLayers": [],
 			"instances": [
@@ -261,33 +430,28 @@
 					"uid": 2,
 					"instanceVariables": {},
 					"behaviors": {
-						"Projétil": {
+						"8Direções": {
 							"properties": {
-								"speed": 400,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": true,
-								"step": false,
+								"max-speed": 400,
+								"acceleration": 1000,
+								"deceleration": 5000,
+								"directions": "dir-8",
+								"set-angle": "no",
+								"default-controls": true,
 								"enabled": true
 							}
 						},
-						"CentrarEm": {
+						"RestritoAoLayout": {
 							"properties": {
-								"enabled": true
-							}
-						},
-						"DarAVolta": {
-							"properties": {
-								"wrap-to": "layout"
+								"bound-by": "edge"
 							}
 						}
 					},
 					"world": {
-						"x": 130.92814476128407,
-						"y": 250.91716444516857,
-						"width": 40.37347749161953,
-						"height": 47.102390406889455,
+						"x": 483,
+						"y": 467,
+						"width": 64,
+						"height": 64,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -332,8 +496,8 @@
 	"sid": 264900411525425,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 5000,
-	"height": 320,
+	"width": 1280,
+	"height": 720,
 	"unboundedScrolling": false,
 	"vpX": 0.5,
 	"vpY": 0.5,

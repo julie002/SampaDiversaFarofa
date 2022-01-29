@@ -1,0 +1,31 @@
+{
+	"name": "ceu",
+	"plugin-id": "TiledBg",
+	"sid": 555229660868353,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "wrap",
+			"name": "DarAVolta",
+			"sid": 325431878233575
+		},
+		{
+			"behaviorId": "Bullet",
+			"name": "Projétil",
+			"sid": 545929724573517
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 1667,
+		"height": 1000,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 4715893,
+		"useCollisionPoly": true
+	}
+}

@@ -1,24 +1,19 @@
 {
 	"name": "Player",
 	"plugin-id": "Sprite",
-	"sid": 412091383722364,
+	"sid": 109247629599719,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "Bullet",
-			"name": "Projétil",
-			"sid": 823435376390065
+			"behaviorId": "EightDir",
+			"name": "8Direções",
+			"sid": 839236700021563
 		},
 		{
-			"behaviorId": "scrollto",
-			"name": "CentrarEm",
-			"sid": 290367041316958
-		},
-		{
-			"behaviorId": "wrap",
-			"name": "DarAVolta",
-			"sid": 885483138261618
+			"behaviorId": "bound",
+			"name": "RestritoAoLayout",
+			"sid": 545368661066942
 		}
 	],
 	"effectTypes": [],
@@ -28,108 +23,36 @@
 				"frames": [
 					{
 						"width": 24,
-						"height": 28,
+						"height": 27,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5371699,
-						"collisionPoly": {
-							"points": [
-								0.20833333333333334,
-								0.32142857142857145,
-								1,
-								0.17857142857142858,
-								1,
-								0.32142857142857145,
-								1,
-								1,
-								1,
-								1,
-								1,
-								1,
-								0.12499999999999996,
-								1,
-								0,
-								1
-							]
-						},
-						"useCollisionPoly": true,
-						"duration": 1
-					},
-					{
-						"width": 24,
-						"height": 26,
-						"originX": 0.5,
-						"originY": 0.5,
-						"originalSource": "",
-						"exportFormat": "png",
-						"exportQuality": 0.8,
-						"imageSpriteId": 5590552,
+						"imageSpriteId": 7104893,
 						"collisionPoly": {
 							"points": [
 								0,
-								0.2692307692307692,
-								0.5,
-								0.11538461538461539,
-								1,
-								0.2692307692307692,
-								1,
-								1,
-								1,
-								1,
-								0.5,
-								1,
 								0,
 								1,
 								0,
-								1
-							]
-						},
-						"useCollisionPoly": true,
-						"duration": 1
-					},
-					{
-						"width": 24,
-						"height": 28,
-						"originX": 0.5,
-						"originY": 0.5,
-						"originalSource": "",
-						"exportFormat": "png",
-						"exportQuality": 0.8,
-						"imageSpriteId": 3404041,
-						"collisionPoly": {
-							"points": [
 								0,
-								0.32142857142857145,
-								0,
-								0.17857142857142858,
-								0.75,
-								0.32142857142857145,
+								0.5925925925925926,
 								1,
-								1,
-								0.8333333333333334,
-								1,
-								0,
-								1,
-								0,
-								1,
-								0,
-								1
+								0
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 118410911121007,
+				"sid": 123833405760278,
 				"name": "Animation 1",
 				"isLooping": true,
 				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,
-				"speed": 5
+				"speed": 10
 			}
 		],
 		"subfolders": []

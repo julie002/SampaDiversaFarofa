@@ -1,20 +1,26 @@
 {
-	"name": "FundoEmBlocos",
+	"name": "FundoCidade",
 	"plugin-id": "TiledBg",
-	"sid": 984375839586180,
+	"sid": 623062621235425,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Projétil",
+			"sid": 299538629567104
+		}
+	],
 	"effectTypes": [],
 	"image": {
-		"width": 250,
-		"height": 250,
+		"width": 1120,
+		"height": 800,
 		"originX": 0.5,
 		"originY": 0.5,
 		"originalSource": "",
 		"exportFormat": "png",
 		"exportQuality": 0.8,
-		"imageSpriteId": 1552208,
+		"imageSpriteId": 776396,
 		"useCollisionPoly": true
 	}
 }

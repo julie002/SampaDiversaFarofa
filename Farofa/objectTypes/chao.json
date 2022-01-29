@@ -1,16 +1,10 @@
 {
-	"name": "Chao",
+	"name": "chao",
 	"plugin-id": "Sprite",
-	"sid": 825347594910552,
+	"sid": 249514147583108,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "solid",
-			"name": "Sólido",
-			"sid": 475625142073208
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -24,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8075987,
+						"imageSpriteId": 6681094,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 262140416518611,
+				"sid": 983582172908117,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

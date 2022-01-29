@@ -24,16 +24,24 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Bullet",
-			"name": "Projétil",
+			"id": "EightDir",
+			"name": "8 Direções",
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
-			"id": "scrollto",
-			"name": "Centrar em",
+			"id": "bound",
+			"name": "Restrito ao layout",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Projétil",
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
@@ -45,23 +53,17 @@
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "solid",
-			"name": "Sólido",
-			"author": "Scirra",
-			"version": "r276.2",
-			"bundled": false
 		}
 	],
 	"uniqueId": "fq57oxw0jjx",
 	"objectTypes": {
 		"items": [
-			"Sprite",
 			"Player",
-			"Chao",
-			"FundoEmBlocos"
+			"FundoCidade",
+			"chao",
+			"ceu",
+			"cidadefundo",
+			"Cidade"
 		],
 		"subfolders": []
 	},
@@ -228,7 +230,7 @@
 		"cordovaiOSScheme": "app",
 		"cordovaAndroidScheme": "https"
 	},
-	"viewportWidth": 180,
-	"viewportHeight": 320,
+	"viewportWidth": 1280,
+	"viewportHeight": 720,
 	"firstLayout": null
 }
