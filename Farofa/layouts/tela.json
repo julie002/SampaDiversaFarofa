@@ -685,7 +685,7 @@
 					}
 				},
 				{
-					"type": "Sprite",
+					"type": "coletavel",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -699,10 +699,10 @@
 					"world": {
 						"x": -354,
 						"y": -357,
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
+						"width": 60,
+						"height": 59,
+						"originX": 0.5166666666666667,
+						"originY": 0.5084745762711864,
 						"color": [
 							1,
 							1,
