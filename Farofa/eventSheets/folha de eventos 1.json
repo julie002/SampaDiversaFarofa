@@ -115,6 +115,15 @@
 							"parameters": {
 								"speed": "6"
 							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Hotel",
+							"sid": 631649176191651,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
 						}
 					],
 					"sid": 341802641959292
@@ -222,6 +231,15 @@
 							"id": "set-speed",
 							"objectClass": "ArranhaCeu",
 							"sid": 216670559222507,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Hotel",
+							"sid": 430941553069723,
 							"behaviorType": "Projétil",
 							"parameters": {
 								"speed": "6"
@@ -337,6 +355,15 @@
 							"parameters": {
 								"speed": "6"
 							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Hotel",
+							"sid": 977557135134905,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
 						}
 					],
 					"sid": 331554051440342
@@ -444,6 +471,15 @@
 							"id": "set-speed",
 							"objectClass": "ArranhaCeu",
 							"sid": 512397444725138,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Hotel",
+							"sid": 944427279294258,
 							"behaviorType": "Projétil",
 							"parameters": {
 								"speed": "6"
@@ -692,60 +728,6 @@
 						{
 							"id": "is-overlapping-another-object",
 							"objectClass": "Player",
-							"sid": 705930617736257,
-							"parameters": {
-								"object": "Predio1"
-							}
-						},
-						{
-							"id": "compare-opacity",
-							"objectClass": "Predio1",
-							"sid": 704561952797723,
-							"parameters": {
-								"comparison": 0,
-								"opacity": "100"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "flash",
-							"objectClass": "Player",
-							"sid": 917628875549406,
-							"behaviorType": "Piscar",
-							"parameters": {
-								"on-time": "0.1",
-								"off-time": "0.1",
-								"duration": "2"
-							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 340600089675926,
-							"parameters": {
-								"seconds": "1.0"
-							}
-						},
-						{
-							"id": "destroy",
-							"objectClass": "Player",
-							"sid": 389009529330246
-						},
-						{
-							"id": "restart-layout",
-							"objectClass": "System",
-							"sid": 551436387524927
-						}
-					],
-					"sid": 406297700919705
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "is-overlapping-another-object",
-							"objectClass": "Player",
 							"sid": 833972489110220,
 							"parameters": {
 								"object": "Predio1"
@@ -792,60 +774,6 @@
 						}
 					],
 					"sid": 806077102803445
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "is-overlapping-another-object",
-							"objectClass": "Player",
-							"sid": 963896388190375,
-							"parameters": {
-								"object": "Predio2"
-							}
-						},
-						{
-							"id": "compare-opacity",
-							"objectClass": "Predio2",
-							"sid": 269060192042094,
-							"parameters": {
-								"comparison": 0,
-								"opacity": "100"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "flash",
-							"objectClass": "Player",
-							"sid": 996788585371871,
-							"behaviorType": "Piscar",
-							"parameters": {
-								"on-time": "0.1",
-								"off-time": "0.1",
-								"duration": "2"
-							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 566771324520963,
-							"parameters": {
-								"seconds": "1.0"
-							}
-						},
-						{
-							"id": "destroy",
-							"objectClass": "Player",
-							"sid": 589505599798069
-						},
-						{
-							"id": "restart-layout",
-							"objectClass": "System",
-							"sid": 141383209455030
-						}
-					],
-					"sid": 699878494030263
 				},
 				{
 					"eventType": "block",
@@ -1241,9 +1169,9 @@
 				{
 					"id": "every-x-seconds",
 					"objectClass": "System",
-					"sid": 352953959840678,
+					"sid": 353991135771606,
 					"parameters": {
-						"interval-seconds": "5"
+						"interval-seconds": "5.5"
 					}
 				}
 			],
@@ -1251,7 +1179,7 @@
 				{
 					"id": "spawn-another-object",
 					"objectClass": "SpawnCasino",
-					"sid": 108249848657290,
+					"sid": 128337875782150,
 					"parameters": {
 						"object": "Cassino",
 						"layer": "4",
@@ -1262,7 +1190,7 @@
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 859895241407049,
+					"sid": 873085705618627,
 					"parameters": {
 						"seconds": "1.0"
 					}
@@ -1270,7 +1198,7 @@
 				{
 					"id": "spawn-another-object",
 					"objectClass": "SpawnCasino",
-					"sid": 752271975755084,
+					"sid": 391601490056503,
 					"parameters": {
 						"object": "Ambev",
 						"layer": "4",
@@ -1281,7 +1209,7 @@
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 657936232052217,
+					"sid": 612124513946793,
 					"parameters": {
 						"seconds": "1.0"
 					}
@@ -1289,7 +1217,7 @@
 				{
 					"id": "spawn-another-object",
 					"objectClass": "SpawnCasino",
-					"sid": 912624519563796,
+					"sid": 819786137957488,
 					"parameters": {
 						"object": "ArranhaCeu",
 						"layer": "4",
@@ -1300,7 +1228,7 @@
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 466070602819890,
+					"sid": 845266795444514,
 					"parameters": {
 						"seconds": "1.0"
 					}
@@ -1308,7 +1236,7 @@
 				{
 					"id": "spawn-another-object",
 					"objectClass": "SpawnCasino",
-					"sid": 562715711403754,
+					"sid": 631346291389481,
 					"parameters": {
 						"object": "Hotel",
 						"layer": "4",
@@ -1317,7 +1245,7 @@
 					}
 				}
 			],
-			"sid": 539491072616475
+			"sid": 732998757126322
 		}
 	],
 	"sid": 899447446619169

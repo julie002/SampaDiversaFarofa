@@ -355,35 +355,6 @@
 						"angle": 3.141592653589793,
 						"zElevation": 0
 					}
-				},
-				{
-					"type": "chao",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 5,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 190,
-						"y": 1319,
-						"width": 1339,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
 				}
 			],
 			"sid": 151288676084269,
@@ -440,11 +411,16 @@
 								"step": false,
 								"enabled": true
 							}
+						},
+						"DarAVolta": {
+							"properties": {
+								"wrap-to": "layout"
+							}
 						}
 					},
 					"world": {
-						"x": 1738,
-						"y": 1356,
+						"x": 2845,
+						"y": -918,
 						"width": 734.6129833416487,
 						"height": 601.8516008100255,
 						"originX": 0.5,
@@ -510,11 +486,16 @@
 								"step": false,
 								"enabled": true
 							}
+						},
+						"DarAVolta": {
+							"properties": {
+								"wrap-to": "layout"
+							}
 						}
 					},
 					"world": {
-						"x": -576.0197571880212,
-						"y": -524.0148178910159,
+						"x": 81,
+						"y": -952,
 						"width": 809.812086433983,
 						"height": 607.3590648254873,
 						"originX": 0.5,
@@ -551,11 +532,16 @@
 								"step": false,
 								"enabled": true
 							}
+						},
+						"DarAVolta": {
+							"properties": {
+								"wrap-to": "layout"
+							}
 						}
 					},
 					"world": {
-						"x": 655.1693619355448,
-						"y": -1002.8262817740837,
+						"x": 972,
+						"y": -1231,
 						"width": 572.9963953646476,
 						"height": 1032.9013969073253,
 						"originX": 0.5,
@@ -592,11 +578,16 @@
 								"step": false,
 								"enabled": true
 							}
+						},
+						"DarAVolta": {
+							"properties": {
+								"wrap-to": "layout"
+							}
 						}
 					},
 					"world": {
-						"x": 1950,
-						"y": -619,
+						"x": 2000,
+						"y": -897,
 						"width": 805.4190540251811,
 						"height": 531.0455301264931,
 						"originX": 0.5,
@@ -608,6 +599,35 @@
 							1
 						],
 						"angle": 3.141592653589793,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "chao",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 5,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 648,
+						"y": 822,
+						"width": 1339,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
 						"zElevation": 0
 					}
 				}
@@ -669,8 +689,8 @@
 						}
 					},
 					"world": {
-						"x": 1377,
-						"y": 1039,
+						"x": 1483,
+						"y": 1356,
 						"width": 35.44814375721778,
 						"height": 34.85734136126415,
 						"originX": 0.5,
@@ -894,7 +914,7 @@
 						"8Direções": {
 							"properties": {
 								"max-speed": 400,
-								"acceleration": 1000,
+								"acceleration": 5000,
 								"deceleration": 5000,
 								"directions": "dir-8",
 								"set-angle": "no",
@@ -959,12 +979,25 @@
 								"saturation": 1,
 								"luminosity": 1
 							}
+						},
+						"FundoDeÁgua": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.5,
+								"intensity": 10,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
 						}
 					},
 					"world": {
-						"x": 1651,
+						"x": 1667.406976744186,
 						"y": 190.56287425149702,
-						"width": 73.3117100157539,
+						"width": 156.3117100157539,
 						"height": 1355.6291993635093,
 						"originX": -0.19767441860465107,
 						"originY": 0.6047904191616766,
@@ -1009,12 +1042,25 @@
 								"saturation": 1,
 								"luminosity": 1
 							}
+						},
+						"FundoDeÁgua": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
 						}
 					},
 					"world": {
-						"x": 1264,
-						"y": 1589,
-						"width": 86.31171001575389,
+						"x": 2700,
+						"y": 1528,
+						"width": 152.31171001575387,
 						"height": 1251.6291993635093,
 						"originX": -0.19767441860465107,
 						"originY": 0.6047904191616766,

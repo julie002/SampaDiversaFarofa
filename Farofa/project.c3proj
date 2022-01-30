@@ -93,6 +93,14 @@
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "waterbg",
+			"name": "Fundo de água",
+			"author": "Viktor Korsun",
+			"version": "r276.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "fq57oxw0jjx",

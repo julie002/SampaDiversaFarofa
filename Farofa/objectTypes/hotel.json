@@ -9,6 +9,11 @@
 			"behaviorId": "Bullet",
 			"name": "Projétil",
 			"sid": 644608679255984
+		},
+		{
+			"behaviorId": "wrap",
+			"name": "DarAVolta",
+			"sid": 244373941370760
 		}
 	],
 	"effectTypes": [],
