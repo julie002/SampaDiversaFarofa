@@ -647,6 +647,38 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Predio2",
+					"sid": 366224340174735,
+					"parameters": {
+						"object": "Spawn2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Predio2",
+					"sid": 196494004274121
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Spawn",
+					"sid": 823047097813582,
+					"parameters": {
+						"object": "Predio1",
+						"layer": "Player.X",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 671838441757872
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Predio2",
 					"sid": 249905122524067,
 					"parameters": {
 						"object": "Spawn3"
@@ -720,6 +752,30 @@
 				}
 			],
 			"sid": 282874661564580
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 908464572088016
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Áudio",
+					"sid": 935987299988624,
+					"parameters": {
+						"audio-file": "01_mus_gameplay_SD_160bpm",
+						"loop": "looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 686241802289857
 		}
 	],
 	"sid": 899447446619169

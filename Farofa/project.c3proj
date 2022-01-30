@@ -31,6 +31,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Áudio",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "EightDir",
 			"name": "8 Direções",
@@ -103,7 +111,8 @@
 			"Spawn2",
 			"Spawn3",
 			"coletavel",
-			"Spawn_coletor"
+			"Spawn_coletor",
+			"Áudio"
 		],
 		"subfolders": []
 	},
@@ -135,7 +144,13 @@
 			"subfolders": []
 		},
 		"music": {
-			"items": [],
+			"items": [
+				{
+					"name": "01_mus_gameplay_SD_160bpm.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 467198878947902
+				}
+			],
 			"subfolders": []
 		},
 		"video": {
