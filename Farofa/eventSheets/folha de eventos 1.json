@@ -1437,6 +1437,15 @@
 					"parameters": {
 						"key": 65
 					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Player",
+					"sid": 633441499786247,
+					"parameters": {
+						"object": "Predio2"
+					},
+					"isInverted": true
 				}
 			],
 			"actions": [
@@ -1487,6 +1496,15 @@
 					"parameters": {
 						"key": 83
 					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Player",
+					"sid": 375606431306443,
+					"parameters": {
+						"object": "Predio1"
+					},
+					"isInverted": true
 				}
 			],
 			"actions": [
@@ -1765,9 +1783,9 @@
 				{
 					"id": "every-x-seconds",
 					"objectClass": "System",
-					"sid": 353991135771606,
+					"sid": 917987175067281,
 					"parameters": {
-						"interval-seconds": "5.5"
+						"interval-seconds": "5"
 					}
 				}
 			],
