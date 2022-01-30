@@ -112,7 +112,13 @@
 			"Spawn3",
 			"coletavel",
 			"Spawn_coletor",
-			"Áudio"
+			"Áudio",
+			"Cassino",
+			"SpawnCasino",
+			"SpawnCasino2",
+			"Ambev",
+			"ArranhaCeu",
+			"Hotel"
 		],
 		"subfolders": []
 	},

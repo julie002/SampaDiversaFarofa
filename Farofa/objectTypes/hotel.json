@@ -1,0 +1,63 @@
+{
+	"name": "Hotel",
+	"plugin-id": "Sprite",
+	"sid": 900655507206523,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Projétil",
+			"sid": 644608679255984
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 364,
+						"height": 240,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7087740,
+						"collisionPoly": {
+							"points": [
+								0.8554216867469879,
+								0.5,
+								1,
+								0.9963235294117647,
+								0.5,
+								0.9963235294117647,
+								0.003012048192771122,
+								0.9963235294117647,
+								0.14759036144578308,
+								0.5,
+								0.19578313253012047,
+								0.23529411764705888,
+								0.5,
+								0,
+								0.8072289156626506,
+								0.23529411764705888
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 423758373814566,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

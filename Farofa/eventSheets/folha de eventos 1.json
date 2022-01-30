@@ -88,6 +88,33 @@
 							"parameters": {
 								"speed": "0"
 							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Cassino",
+							"sid": 426548669633368,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Ambev",
+							"sid": 777556536753182,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "ArranhaCeu",
+							"sid": 432787277261212,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
 						}
 					],
 					"sid": 341802641959292
@@ -171,6 +198,33 @@
 							"behaviorType": "Projétil",
 							"parameters": {
 								"speed": "0"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Cassino",
+							"sid": 490047847500381,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Ambev",
+							"sid": 950519077990366,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "ArranhaCeu",
+							"sid": 216670559222507,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
 							}
 						}
 					],
@@ -256,6 +310,33 @@
 							"parameters": {
 								"speed": "0"
 							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Cassino",
+							"sid": 569031974042348,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Ambev",
+							"sid": 782562788868597,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "ArranhaCeu",
+							"sid": 329450506481681,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
 						}
 					],
 					"sid": 331554051440342
@@ -339,6 +420,33 @@
 							"behaviorType": "Projétil",
 							"parameters": {
 								"speed": "0"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Cassino",
+							"sid": 119077904458355,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Ambev",
+							"sid": 325838252326052,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "ArranhaCeu",
+							"sid": 512397444725138,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
 							}
 						}
 					],
@@ -1126,6 +1234,90 @@
 				}
 			],
 			"sid": 686241802289857
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 352953959840678,
+					"parameters": {
+						"interval-seconds": "5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "SpawnCasino",
+					"sid": 108249848657290,
+					"parameters": {
+						"object": "Cassino",
+						"layer": "4",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 859895241407049,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "SpawnCasino",
+					"sid": 752271975755084,
+					"parameters": {
+						"object": "Ambev",
+						"layer": "4",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 657936232052217,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "SpawnCasino",
+					"sid": 912624519563796,
+					"parameters": {
+						"object": "ArranhaCeu",
+						"layer": "4",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 466070602819890,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "SpawnCasino",
+					"sid": 562715711403754,
+					"parameters": {
+						"object": "Hotel",
+						"layer": "4",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 539491072616475
 		}
 	],
 	"sid": 899447446619169

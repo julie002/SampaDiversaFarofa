@@ -1,0 +1,63 @@
+{
+	"name": "Ambev",
+	"plugin-id": "Sprite",
+	"sid": 924899767300971,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Projétil",
+			"sid": 997066603667726
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 272,
+						"height": 204,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6552404,
+						"collisionPoly": {
+							"points": [
+								0.19277108433734935,
+								0.23529411764705888,
+								0.5,
+								0,
+								0.8042168674698795,
+								0.23529411764705888,
+								0.8524096385542169,
+								0.5,
+								0.9969879518072289,
+								0.9963235294117647,
+								0.5,
+								0.9963235294117647,
+								0,
+								0.9963235294117647,
+								0.14457831325301207,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 954215022078436,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
