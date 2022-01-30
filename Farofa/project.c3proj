@@ -121,12 +121,9 @@
 			"coletavel",
 			"Spawn_coletor",
 			"Áudio",
-			"Cassino",
 			"SpawnCasino",
 			"SpawnCasino2",
-			"Ambev",
-			"ArranhaCeu",
-			"Hotel"
+			"Ambev"
 		],
 		"subfolders": []
 	},

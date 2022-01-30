@@ -355,6 +355,35 @@
 						"angle": 3.141592653589793,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "chao",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 5,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 659,
+						"y": 746,
+						"width": 2759,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 151288676084269,
@@ -390,81 +419,6 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Cassino",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 19,
-					"instanceVariables": {},
-					"behaviors": {
-						"Projétil": {
-							"properties": {
-								"speed": 800,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": false,
-								"step": false,
-								"enabled": true
-							}
-						},
-						"DarAVolta": {
-							"properties": {
-								"wrap-to": "layout"
-							}
-						}
-					},
-					"world": {
-						"x": 2825.4281567490684,
-						"y": -689.7547953400905,
-						"width": 695.4692968397852,
-						"height": 569.7820745193421,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 3.141592653589793,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "SpawnCasino",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 20,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 2191,
-						"y": 532,
-						"width": 44,
-						"height": 56,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Ambev",
 					"properties": {
 						"initially-visible": true,
@@ -494,10 +448,10 @@
 						}
 					},
 					"world": {
-						"x": 65.39024984158891,
-						"y": -735.263069201103,
-						"width": 778.5925861171609,
-						"height": 583.9444395878706,
+						"x": 1488.8531734105375,
+						"y": 405.8909783945221,
+						"width": 3018.323248971864,
+						"height": 708.0403765339825,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -507,127 +461,6 @@
 							1
 						],
 						"angle": 3.141592653589793,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "ArranhaCeu",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 22,
-					"instanceVariables": {},
-					"behaviors": {
-						"Projétil": {
-							"properties": {
-								"speed": 800,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": false,
-								"step": false,
-								"enabled": true
-							}
-						},
-						"DarAVolta": {
-							"properties": {
-								"wrap-to": "layout"
-							}
-						}
-					},
-					"world": {
-						"x": 923.8451710110763,
-						"y": -836.4545809074366,
-						"width": 476.6867373868003,
-						"height": 859.2905660788375,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 3.141592653589793,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Hotel",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 23,
-					"instanceVariables": {},
-					"behaviors": {
-						"Projétil": {
-							"properties": {
-								"speed": 800,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": false,
-								"step": false,
-								"enabled": true
-							}
-						},
-						"DarAVolta": {
-							"properties": {
-								"wrap-to": "layout"
-							}
-						}
-					},
-					"world": {
-						"x": 1988.9472723172555,
-						"y": -694.9219411131356,
-						"width": 783.3135986596924,
-						"height": 516.4705046107862,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 3.141592653589793,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "chao",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 5,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 648,
-						"y": 822,
-						"width": 1339,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
 						"zElevation": 0
 					}
 				}
@@ -795,8 +628,8 @@
 						}
 					},
 					"world": {
-						"x": -235,
-						"y": 334,
+						"x": -387,
+						"y": 342,
 						"width": 50,
 						"height": 80,
 						"originX": 0.5,
@@ -839,8 +672,8 @@
 						}
 					},
 					"world": {
-						"x": -229,
-						"y": 184,
+						"x": -385,
+						"y": 181,
 						"width": 50,
 						"height": 80,
 						"originX": 0.5,
@@ -933,9 +766,9 @@
 					},
 					"world": {
 						"x": 483,
-						"y": 467,
+						"y": 475.39713284377524,
 						"width": 64,
-						"height": 64,
+						"height": 80.79426568755048,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

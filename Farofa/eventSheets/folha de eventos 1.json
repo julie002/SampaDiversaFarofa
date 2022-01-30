@@ -91,35 +91,8 @@
 						},
 						{
 							"id": "set-speed",
-							"objectClass": "Cassino",
-							"sid": 426548669633368,
-							"behaviorType": "Projétil",
-							"parameters": {
-								"speed": "6"
-							}
-						},
-						{
-							"id": "set-speed",
 							"objectClass": "Ambev",
 							"sid": 777556536753182,
-							"behaviorType": "Projétil",
-							"parameters": {
-								"speed": "6"
-							}
-						},
-						{
-							"id": "set-speed",
-							"objectClass": "ArranhaCeu",
-							"sid": 432787277261212,
-							"behaviorType": "Projétil",
-							"parameters": {
-								"speed": "6"
-							}
-						},
-						{
-							"id": "set-speed",
-							"objectClass": "Hotel",
-							"sid": 631649176191651,
 							"behaviorType": "Projétil",
 							"parameters": {
 								"speed": "6"
@@ -211,35 +184,8 @@
 						},
 						{
 							"id": "set-speed",
-							"objectClass": "Cassino",
-							"sid": 490047847500381,
-							"behaviorType": "Projétil",
-							"parameters": {
-								"speed": "6"
-							}
-						},
-						{
-							"id": "set-speed",
 							"objectClass": "Ambev",
 							"sid": 950519077990366,
-							"behaviorType": "Projétil",
-							"parameters": {
-								"speed": "6"
-							}
-						},
-						{
-							"id": "set-speed",
-							"objectClass": "ArranhaCeu",
-							"sid": 216670559222507,
-							"behaviorType": "Projétil",
-							"parameters": {
-								"speed": "6"
-							}
-						},
-						{
-							"id": "set-speed",
-							"objectClass": "Hotel",
-							"sid": 430941553069723,
 							"behaviorType": "Projétil",
 							"parameters": {
 								"speed": "6"
@@ -331,35 +277,8 @@
 						},
 						{
 							"id": "set-speed",
-							"objectClass": "Cassino",
-							"sid": 569031974042348,
-							"behaviorType": "Projétil",
-							"parameters": {
-								"speed": "6"
-							}
-						},
-						{
-							"id": "set-speed",
 							"objectClass": "Ambev",
 							"sid": 782562788868597,
-							"behaviorType": "Projétil",
-							"parameters": {
-								"speed": "6"
-							}
-						},
-						{
-							"id": "set-speed",
-							"objectClass": "ArranhaCeu",
-							"sid": 329450506481681,
-							"behaviorType": "Projétil",
-							"parameters": {
-								"speed": "6"
-							}
-						},
-						{
-							"id": "set-speed",
-							"objectClass": "Hotel",
-							"sid": 977557135134905,
 							"behaviorType": "Projétil",
 							"parameters": {
 								"speed": "6"
@@ -451,35 +370,8 @@
 						},
 						{
 							"id": "set-speed",
-							"objectClass": "Cassino",
-							"sid": 119077904458355,
-							"behaviorType": "Projétil",
-							"parameters": {
-								"speed": "6"
-							}
-						},
-						{
-							"id": "set-speed",
 							"objectClass": "Ambev",
 							"sid": 325838252326052,
-							"behaviorType": "Projétil",
-							"parameters": {
-								"speed": "6"
-							}
-						},
-						{
-							"id": "set-speed",
-							"objectClass": "ArranhaCeu",
-							"sid": 512397444725138,
-							"behaviorType": "Projétil",
-							"parameters": {
-								"speed": "6"
-							}
-						},
-						{
-							"id": "set-speed",
-							"objectClass": "Hotel",
-							"sid": 944427279294258,
 							"behaviorType": "Projétil",
 							"parameters": {
 								"speed": "6"
@@ -581,35 +473,8 @@
 						},
 						{
 							"id": "set-speed",
-							"objectClass": "Cassino",
-							"sid": 148208177716106,
-							"behaviorType": "Projétil",
-							"parameters": {
-								"speed": "6"
-							}
-						},
-						{
-							"id": "set-speed",
 							"objectClass": "Ambev",
 							"sid": 394255094886485,
-							"behaviorType": "Projétil",
-							"parameters": {
-								"speed": "6"
-							}
-						},
-						{
-							"id": "set-speed",
-							"objectClass": "ArranhaCeu",
-							"sid": 962966101283826,
-							"behaviorType": "Projétil",
-							"parameters": {
-								"speed": "6"
-							}
-						},
-						{
-							"id": "set-speed",
-							"objectClass": "Hotel",
-							"sid": 481959132905190,
 							"behaviorType": "Projétil",
 							"parameters": {
 								"speed": "6"
@@ -701,35 +566,8 @@
 						},
 						{
 							"id": "set-speed",
-							"objectClass": "Cassino",
-							"sid": 745600902273244,
-							"behaviorType": "Projétil",
-							"parameters": {
-								"speed": "6"
-							}
-						},
-						{
-							"id": "set-speed",
 							"objectClass": "Ambev",
 							"sid": 667386950978677,
-							"behaviorType": "Projétil",
-							"parameters": {
-								"speed": "6"
-							}
-						},
-						{
-							"id": "set-speed",
-							"objectClass": "ArranhaCeu",
-							"sid": 744511776950621,
-							"behaviorType": "Projétil",
-							"parameters": {
-								"speed": "6"
-							}
-						},
-						{
-							"id": "set-speed",
-							"objectClass": "Hotel",
-							"sid": 602267359276981,
 							"behaviorType": "Projétil",
 							"parameters": {
 								"speed": "6"
@@ -821,35 +659,8 @@
 						},
 						{
 							"id": "set-speed",
-							"objectClass": "Cassino",
-							"sid": 484728490929201,
-							"behaviorType": "Projétil",
-							"parameters": {
-								"speed": "6"
-							}
-						},
-						{
-							"id": "set-speed",
 							"objectClass": "Ambev",
 							"sid": 343631994906753,
-							"behaviorType": "Projétil",
-							"parameters": {
-								"speed": "6"
-							}
-						},
-						{
-							"id": "set-speed",
-							"objectClass": "ArranhaCeu",
-							"sid": 834521158838399,
-							"behaviorType": "Projétil",
-							"parameters": {
-								"speed": "6"
-							}
-						},
-						{
-							"id": "set-speed",
-							"objectClass": "Hotel",
-							"sid": 260682169644470,
 							"behaviorType": "Projétil",
 							"parameters": {
 								"speed": "6"
@@ -941,35 +752,8 @@
 						},
 						{
 							"id": "set-speed",
-							"objectClass": "Cassino",
-							"sid": 389792731534028,
-							"behaviorType": "Projétil",
-							"parameters": {
-								"speed": "6"
-							}
-						},
-						{
-							"id": "set-speed",
 							"objectClass": "Ambev",
 							"sid": 848837333437796,
-							"behaviorType": "Projétil",
-							"parameters": {
-								"speed": "6"
-							}
-						},
-						{
-							"id": "set-speed",
-							"objectClass": "ArranhaCeu",
-							"sid": 928104963116837,
-							"behaviorType": "Projétil",
-							"parameters": {
-								"speed": "6"
-							}
-						},
-						{
-							"id": "set-speed",
-							"objectClass": "Hotel",
-							"sid": 953594785352776,
 							"behaviorType": "Projétil",
 							"parameters": {
 								"speed": "6"
@@ -1781,32 +1565,18 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "every-x-seconds",
+					"id": "on-start-of-layout",
 					"objectClass": "System",
-					"sid": 917987175067281,
-					"parameters": {
-						"interval-seconds": "5"
-					}
+					"sid": 955734571778594
 				}
 			],
 			"actions": [
 				{
-					"id": "spawn-another-object",
-					"objectClass": "SpawnCasino",
-					"sid": 128337875782150,
-					"parameters": {
-						"object": "Cassino",
-						"layer": "4",
-						"image-point": "0",
-						"create-hierarchy": false
-					}
-				},
-				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 873085705618627,
+					"sid": 786110669052915,
 					"parameters": {
-						"seconds": "1.0"
+						"seconds": "2"
 					}
 				},
 				{
@@ -1815,44 +1585,6 @@
 					"sid": 391601490056503,
 					"parameters": {
 						"object": "Ambev",
-						"layer": "4",
-						"image-point": "0",
-						"create-hierarchy": false
-					}
-				},
-				{
-					"id": "wait",
-					"objectClass": "System",
-					"sid": 612124513946793,
-					"parameters": {
-						"seconds": "1.0"
-					}
-				},
-				{
-					"id": "spawn-another-object",
-					"objectClass": "SpawnCasino",
-					"sid": 819786137957488,
-					"parameters": {
-						"object": "ArranhaCeu",
-						"layer": "4",
-						"image-point": "0",
-						"create-hierarchy": false
-					}
-				},
-				{
-					"id": "wait",
-					"objectClass": "System",
-					"sid": 845266795444514,
-					"parameters": {
-						"seconds": "1.0"
-					}
-				},
-				{
-					"id": "spawn-another-object",
-					"objectClass": "SpawnCasino",
-					"sid": 631346291389481,
-					"parameters": {
-						"object": "Hotel",
 						"layer": "4",
 						"image-point": "0",
 						"create-hierarchy": false
