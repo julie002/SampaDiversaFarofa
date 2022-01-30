@@ -72,6 +72,15 @@
 					"parameters": {
 						"speed": "5"
 					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "coletavel",
+					"sid": 358060750455185,
+					"behaviorType": "Projétil",
+					"parameters": {
+						"speed": "0"
+					}
 				}
 			],
 			"sid": 568527795423029
@@ -146,6 +155,15 @@
 					"behaviorType": "Projétil",
 					"parameters": {
 						"speed": "5"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "coletavel",
+					"sid": 955855641752732,
+					"behaviorType": "Projétil",
+					"parameters": {
+						"speed": "0"
 					}
 				}
 			],
@@ -222,6 +240,15 @@
 					"parameters": {
 						"speed": "5"
 					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "coletavel",
+					"sid": 289537650572786,
+					"behaviorType": "Projétil",
+					"parameters": {
+						"speed": "0"
+					}
 				}
 			],
 			"sid": 775711048659763
@@ -296,6 +323,15 @@
 					"behaviorType": "Projétil",
 					"parameters": {
 						"speed": "5"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "coletavel",
+					"sid": 480678095944894,
+					"behaviorType": "Projétil",
+					"parameters": {
+						"speed": "0"
 					}
 				}
 			],
@@ -636,6 +672,54 @@
 				}
 			],
 			"sid": 656475727786806
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 677454260888719,
+					"parameters": {
+						"interval-seconds": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Spawn_coletor",
+					"sid": 554381606977965,
+					"parameters": {
+						"object": "coletavel",
+						"layer": "Player.X",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 711247144945007
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "coletavel",
+					"sid": 772214637382583,
+					"parameters": {
+						"object": "Player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "coletavel",
+					"sid": 122186138872378
+				}
+			],
+			"sid": 282874661564580
 		}
 	],
 	"sid": 899447446619169
