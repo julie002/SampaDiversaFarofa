@@ -797,12 +797,12 @@
 						{
 							"id": "flash",
 							"objectClass": "Player",
-							"sid": 640506649053021,
+							"sid": 114795883015546,
 							"behaviorType": "Piscar",
 							"parameters": {
 								"on-time": "0.1",
 								"off-time": "0.1",
-								"duration": "2"
+								"duration": "1"
 							}
 						},
 						{
@@ -850,12 +850,12 @@
 						{
 							"id": "flash",
 							"objectClass": "Player",
-							"sid": 559587489141162,
+							"sid": 416387972162047,
 							"behaviorType": "Piscar",
 							"parameters": {
 								"on-time": "0.1",
 								"off-time": "0.1",
-								"duration": "2"
+								"duration": "1"
 							}
 						},
 						{
@@ -904,12 +904,12 @@
 						{
 							"id": "flash",
 							"objectClass": "Player",
-							"sid": 222315330764940,
+							"sid": 203296442034972,
 							"behaviorType": "Piscar",
 							"parameters": {
 								"on-time": "0.1",
 								"off-time": "0.1",
-								"duration": "2"
+								"duration": "1"
 							}
 						},
 						{
@@ -957,12 +957,12 @@
 						{
 							"id": "flash",
 							"objectClass": "Player",
-							"sid": 358463315088858,
+							"sid": 300314760860178,
 							"behaviorType": "Piscar",
 							"parameters": {
 								"on-time": "0.1",
 								"off-time": "0.1",
-								"duration": "2"
+								"duration": "1"
 							}
 						},
 						{
@@ -1000,59 +1000,6 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "is-overlapping-another-object",
-							"objectClass": "Player",
-							"sid": 833972489110220,
-							"parameters": {
-								"object": "Predio1"
-							}
-						},
-						{
-							"id": "is-animation-playing",
-							"objectClass": "Player",
-							"sid": 668607102549187,
-							"parameters": {
-								"animation": "\"Animation 3\""
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "flash",
-							"objectClass": "Player",
-							"sid": 498785018930705,
-							"behaviorType": "Piscar",
-							"parameters": {
-								"on-time": "0.1",
-								"off-time": "0.1",
-								"duration": "2"
-							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 471229752028476,
-							"parameters": {
-								"seconds": "1.0"
-							}
-						},
-						{
-							"id": "destroy",
-							"objectClass": "Player",
-							"sid": 430834989622214
-						},
-						{
-							"id": "restart-layout",
-							"objectClass": "System",
-							"sid": 546086852816053
-						}
-					],
-					"sid": 806077102803445
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "Player",
 							"sid": 161362601988415,
@@ -1073,12 +1020,12 @@
 						{
 							"id": "flash",
 							"objectClass": "Player",
-							"sid": 124422392841258,
+							"sid": 838529058597370,
 							"behaviorType": "Piscar",
 							"parameters": {
 								"on-time": "0.1",
 								"off-time": "0.1",
-								"duration": "2"
+								"duration": "1"
 							}
 						},
 						{
@@ -1106,59 +1053,6 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "is-overlapping-another-object",
-							"objectClass": "Player",
-							"sid": 183223923090518,
-							"parameters": {
-								"object": "Predio2"
-							}
-						},
-						{
-							"id": "is-animation-playing",
-							"objectClass": "Player",
-							"sid": 654635533956037,
-							"parameters": {
-								"animation": "\"Animation 2\""
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "flash",
-							"objectClass": "Player",
-							"sid": 264174695003145,
-							"behaviorType": "Piscar",
-							"parameters": {
-								"on-time": "0.1",
-								"off-time": "0.1",
-								"duration": "2"
-							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 740696830673144,
-							"parameters": {
-								"seconds": "1.0"
-							}
-						},
-						{
-							"id": "destroy",
-							"objectClass": "Player",
-							"sid": 219597483511115
-						},
-						{
-							"id": "restart-layout",
-							"objectClass": "System",
-							"sid": 318263202358123
-						}
-					],
-					"sid": 257276784715272
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "Player",
 							"sid": 393988981808083,
@@ -1179,12 +1073,12 @@
 						{
 							"id": "flash",
 							"objectClass": "Player",
-							"sid": 908648020139343,
+							"sid": 919950933077427,
 							"behaviorType": "Piscar",
 							"parameters": {
 								"on-time": "0.1",
 								"off-time": "0.1",
-								"duration": "2"
+								"duration": "1"
 							}
 						},
 						{
