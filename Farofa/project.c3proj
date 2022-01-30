@@ -40,6 +40,22 @@
 		},
 		{
 			"type": "behavior",
+			"id": "solid",
+			"name": "Sólido",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Flash",
+			"name": "Piscar",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Bullet",
 			"name": "Projétil",
 			"author": "Scirra",
@@ -53,6 +69,14 @@
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "hsladjust",
+			"name": "Ajustar HSL",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "fq57oxw0jjx",
@@ -63,7 +87,8 @@
 			"chao",
 			"ceu",
 			"cidadefundo",
-			"Cidade"
+			"Cidade",
+			"Predio1"
 		],
 		"subfolders": []
 	},

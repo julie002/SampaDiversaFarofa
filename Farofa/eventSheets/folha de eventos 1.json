@@ -1,5 +1,97 @@
 {
 	"name": "Folha de eventos 1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Player",
+					"sid": 127466165878013,
+					"parameters": {
+						"object": "Predio1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "stop",
+					"objectClass": "Player",
+					"sid": 891459010080259,
+					"behaviorType": "8Direções"
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "Predio1",
+					"sid": 590215282078866,
+					"behaviorType": "Projétil",
+					"parameters": {
+						"speed": "0"
+					}
+				},
+				{
+					"id": "set-acceleration",
+					"objectClass": "Predio1",
+					"sid": 198364191516119,
+					"behaviorType": "Projétil",
+					"parameters": {
+						"acceleration": "0"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "Cidade",
+					"sid": 242360172818851,
+					"behaviorType": "Projétil",
+					"parameters": {
+						"speed": "10"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "cidadefundo",
+					"sid": 542870614794693,
+					"behaviorType": "Projétil",
+					"parameters": {
+						"speed": "10"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "ceu",
+					"sid": 575532541829584,
+					"behaviorType": "Projétil",
+					"parameters": {
+						"speed": "10"
+					}
+				},
+				{
+					"id": "flash",
+					"objectClass": "Player",
+					"sid": 783698978477153,
+					"behaviorType": "Piscar",
+					"parameters": {
+						"on-time": "0.1",
+						"off-time": "0.1",
+						"duration": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 284097161989008,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Player",
+					"sid": 260872744019537
+				}
+			],
+			"sid": 568527795423029
+		}
+	],
 	"sid": 899447446619169
 }

@@ -294,8 +294,8 @@
 						}
 					},
 					"world": {
-						"x": 1433.3995221406294,
-						"y": 422.4688966770636,
+						"x": 1432,
+						"y": 428.99999999999994,
 						"width": 1730,
 						"height": 800,
 						"originX": 0.5,
@@ -369,8 +369,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 628,
-						"y": 1361,
+						"x": 593,
+						"y": 732,
 						"width": 1339,
 						"height": 250,
 						"originX": 0.5,
@@ -445,6 +445,15 @@
 							"properties": {
 								"bound-by": "edge"
 							}
+						},
+						"Sólido": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						},
+						"Piscar": {
+							"properties": {}
 						}
 					},
 					"world": {
@@ -461,6 +470,62 @@
 							1
 						],
 						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Predio1",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 10,
+					"instanceVariables": {},
+					"behaviors": {
+						"Projétil": {
+							"properties": {
+								"speed": 400,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						},
+						"Sólido": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"AjustarHSL": {
+							"parameters": {
+								"hue": 0,
+								"saturation": 1,
+								"luminosity": 1
+							}
+						}
+					},
+					"world": {
+						"x": 1665,
+						"y": 471,
+						"width": 177.3117100157539,
+						"height": 688.6291993635093,
+						"originX": -0.19767441860465107,
+						"originY": 0.6047904191616766,
+						"color": [
+							0.7215686274509804,
+							0.19607843137254902,
+							0.19607843137254902,
+							1
+						],
+						"angle": 3.141592653589793,
 						"zElevation": 0
 					}
 				}
