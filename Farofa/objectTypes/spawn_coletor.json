@@ -1,14 +1,14 @@
 {
-	"name": "coletavel",
+	"name": "Spawn_coletor",
 	"plugin-id": "Sprite",
-	"sid": 418378070495366,
+	"sid": 847307701183701,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "Bullet",
-			"name": "Projétil",
-			"sid": 910534394609093
+			"behaviorId": "Sin",
+			"name": "Senóide",
+			"sid": 938473348497745
 		}
 	],
 	"effectTypes": [],
@@ -17,19 +17,19 @@
 			{
 				"frames": [
 					{
-						"width": 60,
-						"height": 59,
-						"originX": 0.5166666666666667,
-						"originY": 0.5084745762711864,
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 133803,
+						"imageSpriteId": 6631813,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 716562689844423,
+				"sid": 815846565908192,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
