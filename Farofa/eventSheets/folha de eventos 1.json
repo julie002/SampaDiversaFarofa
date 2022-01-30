@@ -1147,9 +1147,9 @@
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 892333326871094,
+					"sid": 529223308873253,
 					"parameters": {
-						"seconds": "1.5"
+						"seconds": "2."
 					}
 				},
 				{
@@ -1206,9 +1206,9 @@
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 934329538241847,
+					"sid": 827541289894161,
 					"parameters": {
-						"seconds": "1.5"
+						"seconds": "2"
 					}
 				},
 				{
@@ -1427,33 +1427,20 @@
 					"id": "destroy",
 					"objectClass": "coletavel",
 					"sid": 122186138872378
-				}
-			],
-			"sid": 282874661564580
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-start-of-layout",
-					"objectClass": "System",
-					"sid": 908464572088016
-				}
-			],
-			"actions": [
+				},
 				{
 					"id": "play",
 					"objectClass": "Áudio",
-					"sid": 935987299988624,
+					"sid": 658302420356423,
 					"parameters": {
-						"audio-file": "01_mus_gameplay_SD_160bpm",
-						"loop": "looping",
-						"volume": "0",
+						"audio-file": "sfx_moedast_01",
+						"loop": "not-looping",
+						"volume": "-20",
 						"tag-optional": "\"\""
 					}
 				}
 			],
-			"sid": 686241802289857
+			"sid": 282874661564580
 		},
 		{
 			"eventType": "block",
@@ -1486,6 +1473,60 @@
 				}
 			],
 			"sid": 732998757126322
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 992088455921094,
+					"parameters": {
+						"object": "Predio1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Áudio",
+					"sid": 628624618179128,
+					"parameters": {
+						"audio-file": "sfx_dualidade_ativar_01",
+						"loop": "not-looping",
+						"volume": "-10",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 260515302489702
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 729759517916574,
+					"parameters": {
+						"object": "Predio2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Áudio",
+					"sid": 891715661934322,
+					"parameters": {
+						"audio-file": "sfx_dualidade_ativar_03",
+						"loop": "not-looping",
+						"volume": "-10",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 683239539985202
 		}
 	],
 	"sid": 899447446619169

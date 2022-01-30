@@ -39,6 +39,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Texto",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "EightDir",
 			"name": "8 Direções",
@@ -123,7 +131,9 @@
 			"Áudio",
 			"SpawnCasino",
 			"SpawnCasino2",
-			"Ambev"
+			"Ambev",
+			"Sprite",
+			"Texto"
 		],
 		"subfolders": []
 	},
@@ -135,13 +145,16 @@
 	},
 	"layouts": {
 		"items": [
+			"Layout 1",
+			"Layout 2",
 			"Tela"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Folha de eventos 1"
+			"Folha de eventos 1",
+			"Folha de eventos 2"
 		],
 		"subfolders": []
 	},
@@ -151,7 +164,38 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "sfx_moedast_01.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 287591148702783
+				},
+				{
+					"name": "sfx_dualidade_ativar_01.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 878481556204854
+				},
+				{
+					"name": "sfx_dualidade_ativar_03.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 858091879334045
+				},
+				{
+					"name": "sfx_dualidade_desativar_01.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 726668105152696
+				},
+				{
+					"name": "sfx_impact.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 797505907954824
+				},
+				{
+					"name": "sfx_jetpack_iniciar.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 780920853137461
+				}
+			],
 			"subfolders": []
 		},
 		"music": {
@@ -298,5 +342,5 @@
 	},
 	"viewportWidth": 1280,
 	"viewportHeight": 720,
-	"firstLayout": null
+	"firstLayout": "Layout 1"
 }

@@ -519,13 +519,27 @@
 								"step": false,
 								"enabled": true
 							}
+						},
+						"Senóide": {
+							"properties": {
+								"movement": "vertical",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 50,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
 						}
 					},
 					"world": {
-						"x": 728,
-						"y": 1033,
-						"width": 90.05131904539917,
-						"height": 56.698978658214294,
+						"x": 739.7194333691172,
+						"y": 1062.4789259376073,
+						"width": 113.49018578363342,
+						"height": 71.45678364154698,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

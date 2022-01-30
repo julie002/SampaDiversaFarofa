@@ -1,0 +1,161 @@
+{
+	"name": "Layout 1",
+	"layers": [
+		{
+			"name": "Camada 0",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
+				{
+					"type": "Sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 19,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 636,
+						"y": 364,
+						"width": 1330,
+						"height": 769,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Texto",
+					"properties": {
+						"text": "APERTE ESPAÇO PARA CONTINUAR",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 25,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 20,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 325,
+						"y": 612,
+						"width": 645,
+						"height": 66,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Texto",
+					"properties": {
+						"text": "Em um futuro não tão distante, as empresas mais poderosas do ramo da tecnologia vendem a ideia da longevidade e a imagem perfeita para as pessoas mais ricas, através da implantação de meios robóticos em seus corpos. Enquanto as pessoas mais pobres, que lutavam pelos poucos recursos que ainda tinham direito, viam as poucas opções que ainda lhes restava, optando pela conversão voluntária de seus corpos em máquinas.\nMas tudo não passava de uma falsa  promessa. Agora que os mais pobres perderam o livre arbítrio, passaram a ser escravizados em fábricas, assim fariam seus trabalhos por horas e encheriam ainda mais os bolsos de seus patrões, que financiam a Echo.\nCansado de assistir a decadência da humanidade, Skoup, a nossa personagem principal, decidiu agir contra a indústria e salvar aqueles que se corromperam. Unindo tecnologia e determinação.\nE essa é a sua história.\n",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 22,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 22,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 126,
+						"y": 53,
+						"width": 1044,
+						"height": 537,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 363098805476682,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": false,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		}
+	],
+	"sid": 584948427734549,
+	"nonworld-instances": [],
+	"effectTypes": [],
+	"width": 1280,
+	"height": 720,
+	"unboundedScrolling": false,
+	"vpX": 0.5,
+	"vpY": 0.5,
+	"projection": "perspective",
+	"eventSheet": "Folha de eventos 2"
+}
