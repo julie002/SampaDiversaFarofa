@@ -80,6 +80,231 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Player",
+					"sid": 564315013500750,
+					"parameters": {
+						"object": "Predio1"
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Player",
+					"sid": 997968354064421,
+					"parameters": {
+						"animation": "\"Animation 3\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "stop",
+					"objectClass": "Player",
+					"sid": 698823102539886,
+					"behaviorType": "8Direções"
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "Predio1",
+					"sid": 203452667177113,
+					"behaviorType": "Projétil",
+					"parameters": {
+						"speed": "0"
+					}
+				},
+				{
+					"id": "set-acceleration",
+					"objectClass": "Predio1",
+					"sid": 888730040702897,
+					"behaviorType": "Projétil",
+					"parameters": {
+						"acceleration": "0"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "Cidade",
+					"sid": 339230784765561,
+					"behaviorType": "Projétil",
+					"parameters": {
+						"speed": "20"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "cidadefundo",
+					"sid": 395794990409093,
+					"behaviorType": "Projétil",
+					"parameters": {
+						"speed": "10"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "ceu",
+					"sid": 444442801097248,
+					"behaviorType": "Projétil",
+					"parameters": {
+						"speed": "5"
+					}
+				}
+			],
+			"sid": 937300755140500
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Player",
+					"sid": 455357309009029,
+					"parameters": {
+						"object": "Predio2"
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Player",
+					"sid": 525129049772118,
+					"parameters": {
+						"animation": "\"Animation 1\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "stop",
+					"objectClass": "Player",
+					"sid": 461431351150967,
+					"behaviorType": "8Direções"
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "Predio2",
+					"sid": 140173038496834,
+					"behaviorType": "Projétil",
+					"parameters": {
+						"speed": "0"
+					}
+				},
+				{
+					"id": "set-acceleration",
+					"objectClass": "Predio2",
+					"sid": 203524398964338,
+					"behaviorType": "Projétil",
+					"parameters": {
+						"acceleration": "0"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "Cidade",
+					"sid": 983394500693589,
+					"behaviorType": "Projétil",
+					"parameters": {
+						"speed": "20"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "cidadefundo",
+					"sid": 567852718203696,
+					"behaviorType": "Projétil",
+					"parameters": {
+						"speed": "10"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "ceu",
+					"sid": 481643618055702,
+					"behaviorType": "Projétil",
+					"parameters": {
+						"speed": "5"
+					}
+				}
+			],
+			"sid": 775711048659763
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Player",
+					"sid": 193115792254604,
+					"parameters": {
+						"object": "Predio2"
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Player",
+					"sid": 573866014345703,
+					"parameters": {
+						"animation": "\"Animation 2\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "stop",
+					"objectClass": "Player",
+					"sid": 973689566234622,
+					"behaviorType": "8Direções"
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "Predio2",
+					"sid": 104318056633630,
+					"behaviorType": "Projétil",
+					"parameters": {
+						"speed": "0"
+					}
+				},
+				{
+					"id": "set-acceleration",
+					"objectClass": "Predio2",
+					"sid": 677326579377702,
+					"behaviorType": "Projétil",
+					"parameters": {
+						"acceleration": "0"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "Cidade",
+					"sid": 668088774290592,
+					"behaviorType": "Projétil",
+					"parameters": {
+						"speed": "20"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "cidadefundo",
+					"sid": 294197389247716,
+					"behaviorType": "Projétil",
+					"parameters": {
+						"speed": "10"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "ceu",
+					"sid": 875658048568271,
+					"behaviorType": "Projétil",
+					"parameters": {
+						"speed": "5"
+					}
+				}
+			],
+			"sid": 268380114121957
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Player",
 					"sid": 947286367168422,
@@ -129,6 +354,60 @@
 				}
 			],
 			"sid": 107203608222870
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 793506190015043,
+					"parameters": {
+						"object": "Predio2"
+					}
+				},
+				{
+					"id": "compare-opacity",
+					"objectClass": "Predio2",
+					"sid": 487522021805087,
+					"parameters": {
+						"comparison": 0,
+						"opacity": "100"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "flash",
+					"objectClass": "Player",
+					"sid": 748730808615396,
+					"behaviorType": "Piscar",
+					"parameters": {
+						"on-time": "0.1",
+						"off-time": "0.1",
+						"duration": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 658737313334068,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Player",
+					"sid": 437557771564801
+				},
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 257554202297408
+				}
+			],
+			"sid": 433603404615488
 		},
 		{
 			"eventType": "block",
@@ -204,8 +483,8 @@
 				},
 				{
 					"id": "set-opacity",
-					"objectClass": "Predio1",
-					"sid": 364623881343032,
+					"objectClass": "Predio2",
+					"sid": 164162166648655,
 					"parameters": {
 						"opacity": "50"
 					}
@@ -234,19 +513,56 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "every-x-seconds",
-					"objectClass": "System",
-					"sid": 789748785524774,
+					"id": "on-collision-with-another-object",
+					"objectClass": "Predio1",
+					"sid": 841492159979605,
 					"parameters": {
-						"interval-seconds": "3"
+						"object": "Spawn2"
 					}
 				}
 			],
 			"actions": [
 				{
+					"id": "destroy",
+					"objectClass": "Predio1",
+					"sid": 886603110448943
+				},
+				{
 					"id": "spawn-another-object",
 					"objectClass": "Spawn",
-					"sid": 128064613065343,
+					"sid": 602496343174419,
+					"parameters": {
+						"object": "Predio2",
+						"layer": "Player.X",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 353571136965742
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Predio1",
+					"sid": 856880988270225,
+					"parameters": {
+						"object": "Spawn3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Predio1",
+					"sid": 804811264537301
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Spawn",
+					"sid": 749391581694535,
 					"parameters": {
 						"object": "Predio1",
 						"layer": "Player.X",
@@ -255,7 +571,71 @@
 					}
 				}
 			],
-			"sid": 456169696611826
+			"sid": 673733525161572
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Predio2",
+					"sid": 684518316410563,
+					"parameters": {
+						"object": "Spawn2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Predio2",
+					"sid": 816737303433835
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Spawn",
+					"sid": 307679564833803,
+					"parameters": {
+						"object": "Predio1",
+						"layer": "Player.X",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 169993100414440
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Predio2",
+					"sid": 249905122524067,
+					"parameters": {
+						"object": "Spawn3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Predio2",
+					"sid": 425789971904751
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Spawn",
+					"sid": 746460275178043,
+					"parameters": {
+						"object": "Predio2",
+						"layer": "Player.X",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 656475727786806
 		}
 	],
 	"sid": 899447446619169

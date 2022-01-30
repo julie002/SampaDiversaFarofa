@@ -71,6 +71,14 @@
 			"bundled": false
 		},
 		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Senóide",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
 			"type": "effect",
 			"id": "hsladjust",
 			"name": "Ajustar HSL",
@@ -92,7 +100,8 @@
 			"Spawn",
 			"Teclado",
 			"Predio2",
-			"Spawn2"
+			"Spawn2",
+			"Spawn3"
 		],
 		"subfolders": []
 	},

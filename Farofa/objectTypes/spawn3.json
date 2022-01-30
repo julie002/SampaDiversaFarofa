@@ -1,14 +1,14 @@
 {
-	"name": "Spawn2",
+	"name": "Spawn3",
 	"plugin-id": "Sprite",
-	"sid": 908995100402675,
+	"sid": 584202596512140,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Sin",
 			"name": "Senóide",
-			"sid": 714220537904150
+			"sid": 662912036923271
 		}
 	],
 	"effectTypes": [],
@@ -24,12 +24,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1553759,
+						"imageSpriteId": 7747292,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 352792361834743,
+				"sid": 807349189764621,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

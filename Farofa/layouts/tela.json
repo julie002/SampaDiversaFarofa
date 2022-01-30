@@ -480,8 +480,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1721,
-						"y": 301,
+						"x": 1898,
+						"y": 435,
 						"width": 50,
 						"height": 80,
 						"originX": 0.5,
@@ -530,16 +530,154 @@
 						}
 					},
 					"world": {
-						"x": 1274,
-						"y": 1418,
-						"width": 177.3117100157539,
-						"height": 1055.6291993635093,
+						"x": 1651,
+						"y": 190.56287425149702,
+						"width": 73.3117100157539,
+						"height": 1355.6291993635093,
 						"originX": -0.19767441860465107,
 						"originY": 0.6047904191616766,
 						"color": [
 							0.7215686274509804,
 							0.19607843137254902,
 							0.19607843137254902,
+							1
+						],
+						"angle": 3.141592653589793,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawn2",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 13,
+					"instanceVariables": {},
+					"behaviors": {
+						"Senóide": {
+							"properties": {
+								"movement": "horizontal",
+								"wave": "sine",
+								"period": 1,
+								"period-random": 10,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 200,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": -235,
+						"y": 334,
+						"width": 50,
+						"height": 80,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 3.141592653589793,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Predio2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 14,
+					"instanceVariables": {},
+					"behaviors": {
+						"Projétil": {
+							"properties": {
+								"speed": 600,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"effects": {
+						"AjustarHSL": {
+							"parameters": {
+								"hue": 0,
+								"saturation": 1,
+								"luminosity": 1
+							}
+						}
+					},
+					"world": {
+						"x": 1264,
+						"y": 1589,
+						"width": 86.31171001575389,
+						"height": 1251.6291993635093,
+						"originX": -0.19767441860465107,
+						"originY": 0.6047904191616766,
+						"color": [
+							0.23137254901960785,
+							0.1450980392156863,
+							0.6784313725490196,
+							1
+						],
+						"angle": 3.141592653589793,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawn3",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 15,
+					"instanceVariables": {},
+					"behaviors": {
+						"Senóide": {
+							"properties": {
+								"movement": "horizontal",
+								"wave": "sine",
+								"period": 1,
+								"period-random": 10,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 200,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": -229,
+						"y": 184,
+						"width": 50,
+						"height": 80,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
 							1
 						],
 						"angle": 3.141592653589793,
