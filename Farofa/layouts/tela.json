@@ -984,8 +984,8 @@
 							"parameters": {
 								"speed": 0.1,
 								"x-speed": 0.3,
-								"y-speed": 0.5,
-								"intensity": 10,
+								"y-speed": 0.3,
+								"intensity": 3,
 								"frequency": 4,
 								"angle": 7,
 								"delta": 20,

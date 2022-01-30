@@ -494,6 +494,496 @@
 		{
 			"eventType": "group",
 			"disabled": false,
+			"title": "Colisão2",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 162936317549783,
+							"parameters": {
+								"object": "Predio1"
+							}
+						},
+						{
+							"id": "is-animation-playing",
+							"objectClass": "Player",
+							"sid": 304124618329014,
+							"parameters": {
+								"animation": "\"Animation 1\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "stop",
+							"objectClass": "Player",
+							"sid": 134060125857037,
+							"behaviorType": "8Direções"
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Predio1",
+							"sid": 960156018762041,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "0"
+							}
+						},
+						{
+							"id": "set-acceleration",
+							"objectClass": "Predio1",
+							"sid": 793392133622605,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"acceleration": "0"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Cidade",
+							"sid": 447375994166538,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "20"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "cidadefundo",
+							"sid": 330063887654044,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "10"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "ceu",
+							"sid": 294845420361474,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "5"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "coletavel",
+							"sid": 454803532580516,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "0"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Cassino",
+							"sid": 148208177716106,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Ambev",
+							"sid": 394255094886485,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "ArranhaCeu",
+							"sid": 962966101283826,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Hotel",
+							"sid": 481959132905190,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
+						}
+					],
+					"sid": 811201467016991
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 583976375479371,
+							"parameters": {
+								"object": "Predio1"
+							}
+						},
+						{
+							"id": "is-animation-playing",
+							"objectClass": "Player",
+							"sid": 786061994983458,
+							"parameters": {
+								"animation": "\"Animation 3\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "stop",
+							"objectClass": "Player",
+							"sid": 805916247363559,
+							"behaviorType": "8Direções"
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Predio1",
+							"sid": 331305265888542,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "0"
+							}
+						},
+						{
+							"id": "set-acceleration",
+							"objectClass": "Predio1",
+							"sid": 738540119717527,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"acceleration": "0"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Cidade",
+							"sid": 981912002479816,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "20"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "cidadefundo",
+							"sid": 396147717613648,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "10"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "ceu",
+							"sid": 360279480359603,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "5"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "coletavel",
+							"sid": 308674512828739,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "0"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Cassino",
+							"sid": 745600902273244,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Ambev",
+							"sid": 667386950978677,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "ArranhaCeu",
+							"sid": 744511776950621,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Hotel",
+							"sid": 602267359276981,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
+						}
+					],
+					"sid": 426649128857214
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 595658006755280,
+							"parameters": {
+								"object": "Predio2"
+							}
+						},
+						{
+							"id": "is-animation-playing",
+							"objectClass": "Player",
+							"sid": 592821700385655,
+							"parameters": {
+								"animation": "\"Animation 1\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "stop",
+							"objectClass": "Player",
+							"sid": 787822157702917,
+							"behaviorType": "8Direções"
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Predio2",
+							"sid": 378423182960580,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "0"
+							}
+						},
+						{
+							"id": "set-acceleration",
+							"objectClass": "Predio2",
+							"sid": 876452012641361,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"acceleration": "0"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Cidade",
+							"sid": 977348483462763,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "20"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "cidadefundo",
+							"sid": 359910032274855,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "10"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "ceu",
+							"sid": 270348317740398,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "5"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "coletavel",
+							"sid": 769802289722782,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "0"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Cassino",
+							"sid": 484728490929201,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Ambev",
+							"sid": 343631994906753,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "ArranhaCeu",
+							"sid": 834521158838399,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Hotel",
+							"sid": 260682169644470,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
+						}
+					],
+					"sid": 496255806823950
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 820453993665993,
+							"parameters": {
+								"object": "Predio2"
+							}
+						},
+						{
+							"id": "is-animation-playing",
+							"objectClass": "Player",
+							"sid": 328716678188828,
+							"parameters": {
+								"animation": "\"Animation 2\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "stop",
+							"objectClass": "Player",
+							"sid": 462046953436433,
+							"behaviorType": "8Direções"
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Predio2",
+							"sid": 603389681036694,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "0"
+							}
+						},
+						{
+							"id": "set-acceleration",
+							"objectClass": "Predio2",
+							"sid": 377385732993208,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"acceleration": "0"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Cidade",
+							"sid": 569101624325213,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "20"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "cidadefundo",
+							"sid": 734500531463065,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "10"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "ceu",
+							"sid": 356612855904670,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "5"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "coletavel",
+							"sid": 877837773013460,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "0"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Cassino",
+							"sid": 389792731534028,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Ambev",
+							"sid": 848837333437796,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "ArranhaCeu",
+							"sid": 928104963116837,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Hotel",
+							"sid": 953594785352776,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "6"
+							}
+						}
+					],
+					"sid": 134842011121863
+				}
+			],
+			"sid": 916263520932285
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
 			"title": "Morte",
 			"description": "",
 			"isActiveOnStart": true,
@@ -779,6 +1269,59 @@
 					"eventType": "block",
 					"conditions": [
 						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 161362601988415,
+							"parameters": {
+								"object": "Predio1"
+							}
+						},
+						{
+							"id": "is-animation-playing",
+							"objectClass": "Player",
+							"sid": 972981111858325,
+							"parameters": {
+								"animation": "\"Animation 3\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "flash",
+							"objectClass": "Player",
+							"sid": 124422392841258,
+							"behaviorType": "Piscar",
+							"parameters": {
+								"on-time": "0.1",
+								"off-time": "0.1",
+								"duration": "2"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 842571377646010,
+							"parameters": {
+								"seconds": "1.0"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Player",
+							"sid": 857106778636502
+						},
+						{
+							"id": "restart-layout",
+							"objectClass": "System",
+							"sid": 713723400410521
+						}
+					],
+					"sid": 739443822771604
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
 							"id": "is-overlapping-another-object",
 							"objectClass": "Player",
 							"sid": 183223923090518,
@@ -827,6 +1370,59 @@
 						}
 					],
 					"sid": 257276784715272
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 393988981808083,
+							"parameters": {
+								"object": "Predio2"
+							}
+						},
+						{
+							"id": "is-animation-playing",
+							"objectClass": "Player",
+							"sid": 857185587414072,
+							"parameters": {
+								"animation": "\"Animation 2\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "flash",
+							"objectClass": "Player",
+							"sid": 908648020139343,
+							"behaviorType": "Piscar",
+							"parameters": {
+								"on-time": "0.1",
+								"off-time": "0.1",
+								"duration": "2"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 838302215789115,
+							"parameters": {
+								"seconds": "1.0"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Player",
+							"sid": 498142620676317
+						},
+						{
+							"id": "restart-layout",
+							"objectClass": "System",
+							"sid": 520621296199691
+						}
+					],
+					"sid": 230880816767214
 				}
 			],
 			"sid": 862422657236165
