@@ -23,6 +23,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Teclado",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "EightDir",
 			"name": "8 Direções",
@@ -34,14 +42,6 @@
 			"type": "behavior",
 			"id": "bound",
 			"name": "Restrito ao layout",
-			"author": "Scirra",
-			"version": "r276.2",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "solid",
-			"name": "Sólido",
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
@@ -88,7 +88,11 @@
 			"ceu",
 			"cidadefundo",
 			"Cidade",
-			"Predio1"
+			"Predio1",
+			"Spawn",
+			"Teclado",
+			"Predio2",
+			"Spawn2"
 		],
 		"subfolders": []
 	},

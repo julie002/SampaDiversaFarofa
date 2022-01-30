@@ -11,6 +11,14 @@
 					"parameters": {
 						"object": "Predio1"
 					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Player",
+					"sid": 363194585944417,
+					"parameters": {
+						"animation": "\"Animation 1\""
+					}
 				}
 			],
 			"actions": [
@@ -41,10 +49,10 @@
 				{
 					"id": "set-speed",
 					"objectClass": "Cidade",
-					"sid": 242360172818851,
+					"sid": 631410566516801,
 					"behaviorType": "Projétil",
 					"parameters": {
-						"speed": "10"
+						"speed": "20"
 					}
 				},
 				{
@@ -59,16 +67,41 @@
 				{
 					"id": "set-speed",
 					"objectClass": "ceu",
-					"sid": 575532541829584,
+					"sid": 263616465967960,
 					"behaviorType": "Projétil",
 					"parameters": {
-						"speed": "10"
+						"speed": "5"
+					}
+				}
+			],
+			"sid": 568527795423029
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 947286367168422,
+					"parameters": {
+						"object": "Predio1"
 					}
 				},
 				{
+					"id": "compare-opacity",
+					"objectClass": "Predio1",
+					"sid": 117820802238518,
+					"parameters": {
+						"comparison": 0,
+						"opacity": "100"
+					}
+				}
+			],
+			"actions": [
+				{
 					"id": "flash",
 					"objectClass": "Player",
-					"sid": 783698978477153,
+					"sid": 773304666109851,
 					"behaviorType": "Piscar",
 					"parameters": {
 						"on-time": "0.1",
@@ -79,7 +112,7 @@
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 284097161989008,
+					"sid": 448660377935178,
 					"parameters": {
 						"seconds": "1.0"
 					}
@@ -87,10 +120,142 @@
 				{
 					"id": "destroy",
 					"objectClass": "Player",
-					"sid": 260872744019537
+					"sid": 974714442742954
+				},
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 120368979763822
 				}
 			],
-			"sid": 568527795423029
+			"sid": 107203608222870
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 746066118845595,
+					"parameters": {
+						"key": 65
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 106074176143391,
+					"parameters": {
+						"animation": "\"Animation 2\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Predio1",
+					"sid": 103689812375882,
+					"parameters": {
+						"opacity": "50"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 892333326871094,
+					"parameters": {
+						"seconds": "1.5"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 741853768325256,
+					"parameters": {
+						"animation": "\"Animation 1\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 562827551722598
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 632821864383379,
+					"parameters": {
+						"key": 83
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 681540461440581,
+					"parameters": {
+						"animation": "\"Animation 3\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Predio1",
+					"sid": 364623881343032,
+					"parameters": {
+						"opacity": "50"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 934329538241847,
+					"parameters": {
+						"seconds": "1.5"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 997974832651620,
+					"parameters": {
+						"animation": "\"Animation 1\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 240897935343388
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 789748785524774,
+					"parameters": {
+						"interval-seconds": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Spawn",
+					"sid": 128064613065343,
+					"parameters": {
+						"object": "Predio1",
+						"layer": "Player.X",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 456169696611826
 		}
 	],
 	"sid": 899447446619169
