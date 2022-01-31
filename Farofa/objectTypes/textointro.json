@@ -1,7 +1,7 @@
 {
-	"name": "Sprite",
+	"name": "Textointro",
 	"plugin-id": "Sprite",
-	"sid": 995115154488432,
+	"sid": 943727030652674,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,19 +11,31 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
+						"width": 5239,
+						"height": 2940,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6963623,
+						"imageSpriteId": 6489225,
+						"collisionPoly": {
+							"points": [
+								0.0001908761213972132,
+								0.0003401360544217687,
+								0.8051154800534454,
+								0.3469387755102041,
+								0.9383470127887001,
+								0.8901360544217687,
+								0.007444168734491315,
+								0.9863945578231292
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 720428504226485,
+				"sid": 961993094787234,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

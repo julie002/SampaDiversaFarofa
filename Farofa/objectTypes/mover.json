@@ -1,7 +1,7 @@
 {
-	"name": "Sprite",
+	"name": "mover",
 	"plugin-id": "Sprite",
-	"sid": 995115154488432,
+	"sid": 594108472271207,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6963623,
+						"imageSpriteId": 6970123,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 720428504226485,
+				"sid": 422555814007423,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

@@ -47,6 +47,30 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Particles",
+			"name": "Partículas",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "gamepad",
+			"name": "Gamepad",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Spritefont2",
+			"name": "Fonte de sprites",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "EightDir",
 			"name": "8 Direções",
@@ -131,9 +155,30 @@
 			"Áudio",
 			"SpawnCasino",
 			"SpawnCasino2",
-			"Ambev",
+			"Edificios",
 			"Sprite",
-			"Texto"
+			"Texto",
+			"Partículas",
+			"Gamepad",
+			"mover",
+			"ctexto",
+			"FonteDeSprites",
+			"Textointro",
+			"Pular",
+			"Sprite2",
+			"Começar",
+			"Tutorial",
+			"Creditos",
+			"Seta",
+			"Tuto1",
+			"Sprite4",
+			"Tuto2",
+			"Tuto3",
+			"Tuto4",
+			"tutotexto",
+			"tutotexto2",
+			"tutotexto3",
+			"pontuacao"
 		],
 		"subfolders": []
 	},
@@ -145,16 +190,18 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1",
-			"Layout 2",
-			"Tela"
+			"Intro",
+			"Title Screen",
+			"Tela",
+			"Tutorial"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Folha de eventos 1",
-			"Folha de eventos 2"
+			"eTela",
+			"eIntro",
+			"eTitle"
 		],
 		"subfolders": []
 	},
@@ -342,5 +389,5 @@
 	},
 	"viewportWidth": 1280,
 	"viewportHeight": 720,
-	"firstLayout": "Layout 1"
+	"firstLayout": "Intro"
 }

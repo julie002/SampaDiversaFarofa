@@ -1,6 +1,16 @@
 {
-	"name": "Folha de eventos 1",
+	"name": "eTela",
 	"events": [
+		{
+			"eventType": "variable",
+			"name": "Pontos",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 649702142930054
+		},
 		{
 			"eventType": "group",
 			"disabled": false,
@@ -91,7 +101,7 @@
 						},
 						{
 							"id": "set-speed",
-							"objectClass": "Ambev",
+							"objectClass": "Edificios",
 							"sid": 777556536753182,
 							"behaviorType": "Projétil",
 							"parameters": {
@@ -184,7 +194,7 @@
 						},
 						{
 							"id": "set-speed",
-							"objectClass": "Ambev",
+							"objectClass": "Edificios",
 							"sid": 950519077990366,
 							"behaviorType": "Projétil",
 							"parameters": {
@@ -277,7 +287,7 @@
 						},
 						{
 							"id": "set-speed",
-							"objectClass": "Ambev",
+							"objectClass": "Edificios",
 							"sid": 782562788868597,
 							"behaviorType": "Projétil",
 							"parameters": {
@@ -370,7 +380,7 @@
 						},
 						{
 							"id": "set-speed",
-							"objectClass": "Ambev",
+							"objectClass": "Edificios",
 							"sid": 325838252326052,
 							"behaviorType": "Projétil",
 							"parameters": {
@@ -473,7 +483,7 @@
 						},
 						{
 							"id": "set-speed",
-							"objectClass": "Ambev",
+							"objectClass": "Edificios",
 							"sid": 394255094886485,
 							"behaviorType": "Projétil",
 							"parameters": {
@@ -566,7 +576,7 @@
 						},
 						{
 							"id": "set-speed",
-							"objectClass": "Ambev",
+							"objectClass": "Edificios",
 							"sid": 667386950978677,
 							"behaviorType": "Projétil",
 							"parameters": {
@@ -659,7 +669,7 @@
 						},
 						{
 							"id": "set-speed",
-							"objectClass": "Ambev",
+							"objectClass": "Edificios",
 							"sid": 343631994906753,
 							"behaviorType": "Projétil",
 							"parameters": {
@@ -752,7 +762,7 @@
 						},
 						{
 							"id": "set-speed",
-							"objectClass": "Ambev",
+							"objectClass": "Edificios",
 							"sid": 848837333437796,
 							"behaviorType": "Projétil",
 							"parameters": {
@@ -1438,6 +1448,26 @@
 						"volume": "-20",
 						"tag-optional": "\"\""
 					}
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "coletavel",
+					"sid": 412097270497331,
+					"parameters": {
+						"object": "Partículas",
+						"layer": "5",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 369094708050146,
+					"parameters": {
+						"variable": "Pontos",
+						"value": "100"
+					}
 				}
 			],
 			"sid": 282874661564580
@@ -1465,7 +1495,7 @@
 					"objectClass": "SpawnCasino",
 					"sid": 391601490056503,
 					"parameters": {
-						"object": "Ambev",
+						"object": "Edificios",
 						"layer": "4",
 						"image-point": "0",
 						"create-hierarchy": false
@@ -1527,6 +1557,267 @@
 				}
 			],
 			"sid": 683239539985202
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-button-pressed",
+					"objectClass": "Gamepad",
+					"sid": 114089890672980,
+					"parameters": {
+						"gamepad": "0",
+						"button": "button-a"
+					}
+				}
+			],
+			"actions": [
+				{
+					"callFunction": "PU VERMELHO",
+					"sid": 587059264070926
+				}
+			],
+			"sid": 560566033229370
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-button-pressed",
+					"objectClass": "Gamepad",
+					"sid": 862112610490429,
+					"parameters": {
+						"gamepad": "0",
+						"button": "button-x"
+					}
+				}
+			],
+			"actions": [
+				{
+					"callFunction": "PU AZUL",
+					"sid": 853230718531514
+				}
+			],
+			"sid": 874417389068470
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-button-down",
+					"objectClass": "Gamepad",
+					"sid": 424176158852493,
+					"parameters": {
+						"gamepad": "0",
+						"button": "d-pad-right"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Player",
+					"sid": 654081428131964,
+					"behaviorType": "8Direções",
+					"parameters": {
+						"control": "right"
+					}
+				}
+			],
+			"sid": 215813497713964
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-button-down",
+					"objectClass": "Gamepad",
+					"sid": 470121409867323,
+					"parameters": {
+						"gamepad": "0",
+						"button": "d-pad-left"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Player",
+					"sid": 109915966168706,
+					"behaviorType": "8Direções",
+					"parameters": {
+						"control": "left"
+					}
+				}
+			],
+			"sid": 615310058525255
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-button-down",
+					"objectClass": "Gamepad",
+					"sid": 446200124625574,
+					"parameters": {
+						"gamepad": "0",
+						"button": "d-pad-down"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Player",
+					"sid": 894473562453748,
+					"behaviorType": "8Direções",
+					"parameters": {
+						"control": "down"
+					}
+				}
+			],
+			"sid": 186251425123483
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-button-down",
+					"objectClass": "Gamepad",
+					"sid": 802972817243135,
+					"parameters": {
+						"gamepad": "0",
+						"button": "d-pad-up"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Player",
+					"sid": 499025234575187,
+					"behaviorType": "8Direções",
+					"parameters": {
+						"control": "up"
+					}
+				}
+			],
+			"sid": 169136520150337
+		},
+		{
+			"functionName": "PU VERMELHO",
+			"functionDescription": "",
+			"functionCategory": "",
+			"functionReturnType": "none",
+			"functionIsAsync": false,
+			"functionParameters": [],
+			"eventType": "function-block",
+			"conditions": [],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 899472684429404,
+					"parameters": {
+						"animation": "\"Animation 2\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Predio1",
+					"sid": 802786771890524,
+					"parameters": {
+						"opacity": "50"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 102795275214837,
+					"parameters": {
+						"seconds": "2."
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 741711971732066,
+					"parameters": {
+						"animation": "\"Animation 1\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 463863121378594
+		},
+		{
+			"functionName": "PU AZUL",
+			"functionDescription": "",
+			"functionCategory": "",
+			"functionReturnType": "none",
+			"functionIsAsync": false,
+			"functionParameters": [],
+			"eventType": "function-block",
+			"conditions": [],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 496009258217687,
+					"parameters": {
+						"animation": "\"Animation 3\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Predio2",
+					"sid": 400224313429171,
+					"parameters": {
+						"opacity": "50"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 795601126889154,
+					"parameters": {
+						"seconds": "2"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 459114473917464,
+					"parameters": {
+						"animation": "\"Animation 1\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 131457199951063
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 451683663887966
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "pontuacao",
+					"sid": 900810289495759,
+					"parameters": {
+						"text": "\"Pontos:\"&Pontos"
+					}
+				}
+			],
+			"sid": 597343436601043
 		}
 	],
 	"sid": 899447446619169

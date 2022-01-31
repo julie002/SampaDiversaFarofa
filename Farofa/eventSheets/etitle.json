@@ -1,0 +1,427 @@
+{
+	"name": "eTitle",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Seta",
+					"sid": 854777695566269,
+					"parameters": {
+						"object": "Começar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-scale",
+					"objectClass": "Começar",
+					"sid": 196592701042347,
+					"parameters": {
+						"scale": "0.6"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Áudio",
+					"sid": 824788253282145,
+					"parameters": {
+						"audio-file": "sfx_moedast_01",
+						"loop": "not-looping",
+						"volume": "-20",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 523209938315046
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Seta",
+					"sid": 625173840695989,
+					"parameters": {
+						"object": "Começar"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-scale",
+					"objectClass": "Começar",
+					"sid": 441440299440946,
+					"parameters": {
+						"scale": "0.3"
+					}
+				}
+			],
+			"sid": 141135131355559
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Seta",
+					"sid": 535215892754513,
+					"parameters": {
+						"object": "Tutorial"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-scale",
+					"objectClass": "Tutorial",
+					"sid": 712635497446846,
+					"parameters": {
+						"scale": "0.6"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Áudio",
+					"sid": 844652861509021,
+					"parameters": {
+						"audio-file": "sfx_moedast_01",
+						"loop": "not-looping",
+						"volume": "-20",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 977970505927690
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Seta",
+					"sid": 200773696637619,
+					"parameters": {
+						"object": "Tutorial"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-scale",
+					"objectClass": "Tutorial",
+					"sid": 582755811954821,
+					"parameters": {
+						"scale": "0.3"
+					}
+				}
+			],
+			"sid": 668577273083573
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Seta",
+					"sid": 755320353617037,
+					"parameters": {
+						"object": "Creditos"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-scale",
+					"objectClass": "Creditos",
+					"sid": 624227204603920,
+					"parameters": {
+						"scale": "0.6"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Áudio",
+					"sid": 471802655926484,
+					"parameters": {
+						"audio-file": "sfx_moedast_01",
+						"loop": "not-looping",
+						"volume": "-20",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 185848585417353
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Seta",
+					"sid": 346493468258788,
+					"parameters": {
+						"object": "Creditos"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-scale",
+					"objectClass": "Creditos",
+					"sid": 385679484719260,
+					"parameters": {
+						"scale": "0.3"
+					}
+				}
+			],
+			"sid": 186068403956191
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-button-down",
+					"objectClass": "Gamepad",
+					"sid": 746361045995574,
+					"parameters": {
+						"gamepad": "0",
+						"button": "d-pad-right"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Seta",
+					"sid": 973354226733066,
+					"behaviorType": "8Direções",
+					"parameters": {
+						"control": "right"
+					}
+				}
+			],
+			"sid": 572936728127580
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-button-down",
+					"objectClass": "Gamepad",
+					"sid": 371043951464231,
+					"parameters": {
+						"gamepad": "0",
+						"button": "d-pad-left"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Seta",
+					"sid": 417221161311706,
+					"behaviorType": "8Direções",
+					"parameters": {
+						"control": "left"
+					}
+				}
+			],
+			"sid": 898542307545739
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 667369539923302,
+					"parameters": {
+						"key": 32
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Seta",
+					"sid": 740142138109529,
+					"parameters": {
+						"object": "Começar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 748263519956726,
+					"parameters": {
+						"layout": "Tela"
+					}
+				}
+			],
+			"sid": 723534665944518
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 625753685534306,
+					"parameters": {
+						"key": 32
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Seta",
+					"sid": 989206818739999,
+					"parameters": {
+						"object": "Tutorial"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 139109975755081,
+					"parameters": {
+						"layout": "Tutorial"
+					}
+				}
+			],
+			"sid": 823674972995808
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 724930541237416,
+					"parameters": {
+						"key": 32
+					}
+				},
+				{
+					"id": "is-on-screen",
+					"objectClass": "Tuto1",
+					"sid": 886601749064440
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 295925381338944,
+					"parameters": {
+						"layout": "Title Screen"
+					}
+				}
+			],
+			"sid": 433601482056612
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-button-pressed",
+					"objectClass": "Gamepad",
+					"sid": 799393801170538,
+					"parameters": {
+						"gamepad": "0",
+						"button": "button-a"
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Seta",
+					"sid": 147768679535250,
+					"parameters": {
+						"object": "Começar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 912519663713199,
+					"parameters": {
+						"layout": "Tela"
+					}
+				}
+			],
+			"sid": 579629485399355
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-button-pressed",
+					"objectClass": "Gamepad",
+					"sid": 707585292854879,
+					"parameters": {
+						"gamepad": "0",
+						"button": "button-a"
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Seta",
+					"sid": 654694522711623,
+					"parameters": {
+						"object": "Tutorial"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 267464816978643,
+					"parameters": {
+						"layout": "Tutorial"
+					}
+				}
+			],
+			"sid": 176570712664596
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-button-pressed",
+					"objectClass": "Gamepad",
+					"sid": 788947042673536,
+					"parameters": {
+						"gamepad": "0",
+						"button": "button-a"
+					}
+				},
+				{
+					"id": "is-on-screen",
+					"objectClass": "Tuto1",
+					"sid": 621421229351727
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 199481490870730,
+					"parameters": {
+						"layout": "Title Screen"
+					}
+				}
+			],
+			"sid": 495975592588067
+		}
+	],
+	"sid": 841144844041200
+}

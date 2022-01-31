@@ -1,21 +1,10 @@
 {
-	"name": "Cidade",
+	"name": "Sprite4",
 	"plugin-id": "Sprite",
-	"sid": 905199186405998,
+	"sid": 922381903737263,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "Bullet",
-			"name": "Projétil",
-			"sid": 509555073328036
-		},
-		{
-			"behaviorId": "wrap",
-			"name": "DarAVolta",
-			"sid": 991724202448979
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -23,38 +12,38 @@
 				"frames": [
 					{
 						"width": 1280,
-						"height": 572,
+						"height": 720,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2466843,
+						"imageSpriteId": 4267137,
 						"collisionPoly": {
 							"points": [
-								0.37857142857142856,
-								0.53,
-								0.5,
-								0.55,
-								0.7133928571428572,
-								0.4,
-								0.9955357142857143,
-								0.5,
-								0.9991071428571429,
-								0.99875,
-								0.5,
-								0.99875,
 								0,
-								0.99875,
-								0.025000000000000022,
-								0.5
+								0.5,
+								0,
+								0.001388888888888884,
+								0.5,
+								0.001388888888888884,
+								0.99921875,
+								0.001388888888888884,
+								0.99921875,
+								0.5,
+								0.99921875,
+								1,
+								0.5,
+								1,
+								0,
+								1
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 609967564245660,
+				"sid": 146242205732147,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

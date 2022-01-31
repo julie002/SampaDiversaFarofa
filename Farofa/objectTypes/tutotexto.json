@@ -1,0 +1,57 @@
+{
+	"name": "tutotexto",
+	"plugin-id": "Sprite",
+	"sid": 822964354881348,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 2130,
+						"height": 494,
+						"originX": 0.484037558685446,
+						"originY": 0.5647773279352226,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8646778,
+						"collisionPoly": {
+							"points": [
+								0.017074384262952564,
+								0.4087188060946031,
+								0.5275984737252343,
+								1,
+								0.739320838585846,
+								1,
+								1,
+								1,
+								0.9868994103986584,
+								1,
+								0.5275984737252343,
+								1,
+								0.066590098625515,
+								1,
+								0.051223152788857695,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 711503066641547,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

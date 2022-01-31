@@ -1,0 +1,57 @@
+{
+	"name": "Tuto1",
+	"plugin-id": "Sprite",
+	"sid": 164048047529394,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 2137,
+						"height": 1020,
+						"originX": 0.6607393542349087,
+						"originY": 1.0602941176470588,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8647621,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.6607393542349087,
+								0,
+								1,
+								0,
+								1,
+								1,
+								1,
+								1,
+								0.6607393542349087,
+								1,
+								0,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 233463973354716,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

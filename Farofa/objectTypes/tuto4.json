@@ -1,7 +1,7 @@
 {
-	"name": "Sprite",
+	"name": "Tuto4",
 	"plugin-id": "Sprite",
-	"sid": 995115154488432,
+	"sid": 428668624105199,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,19 +11,19 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
+						"width": 2137,
+						"height": 1020,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6963623,
+						"imageSpriteId": 691674,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 720428504226485,
+				"sid": 284497104540346,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

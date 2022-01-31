@@ -1,7 +1,7 @@
 {
-	"name": "Sprite",
+	"name": "Tutorial",
 	"plugin-id": "Sprite",
-	"sid": 995115154488432,
+	"sid": 596594622976284,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,19 +11,39 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
+						"width": 600,
+						"height": 69,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6963623,
+						"imageSpriteId": 4343585,
+						"collisionPoly": {
+							"points": [
+								0.004360902255639096,
+								0,
+								0.5832518796992481,
+								0.10291689598238836,
+								0.8233270676691729,
+								1,
+								1,
+								1,
+								1,
+								1,
+								0.5832518796992481,
+								1,
+								0.060507518796992475,
+								1,
+								0.04308270676691729,
+								1
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 720428504226485,
+				"sid": 663230200242321,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

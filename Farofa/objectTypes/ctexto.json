@@ -1,10 +1,16 @@
 {
-	"name": "Sprite",
+	"name": "ctexto",
 	"plugin-id": "Sprite",
-	"sid": 995115154488432,
+	"sid": 105853886027400,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Projétil",
+			"sid": 265401611732054
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -18,12 +24,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6963623,
+						"imageSpriteId": 6213955,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 720428504226485,
+				"sid": 992109090197457,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
